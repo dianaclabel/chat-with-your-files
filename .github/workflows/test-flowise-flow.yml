@@ -1,11 +1,10 @@
-/*actions*/
 name: Test Flowise Flow
 
 on:
   push:
-    branches: ['main']
+    branches: ["main"]
   pull_request:
-    branches: ['main']
+    branches: ["main"]
 
 jobs:
   build:
